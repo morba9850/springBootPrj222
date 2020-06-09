@@ -1,0 +1,124 @@
+{{>layout/header2}}
+
+
+
+
+
+
+<div class="main-wrap">
+    <div class="cover_1 cover_sm">
+        <div class="img_bg" style="background-image: url(img/slider-1.jpg);" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-7 text-center" data-aos="fade-up">
+                        <h2 class="heading mb-4">Day n Day</h2>
+                        {{#userNames}}
+                            <div class="author-info"><a>어서오세요 {{userNames}}님!</a>
+                            </div>
+                            <div class="author-info"> <a href="#">Day n Day!</a></div>
+                            <div class="author-info"><span class="seperator"></span> <a href="/logout" role="button">Logout</a></div>
+                        {{/userNames}}
+                        {{^userNames}}
+                            <div class="post-info">
+
+                                <div class="category-info"><a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=h
+                                ttps%3A%2F%2Fwww.google.com%2F%3Fhl%3Dko&hl=ko&dsh=S-1929214590%3A1590019849165225&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp" data-title="View all posts in Lifestyle" title="View all posts in Lifestyle">Google Sign Up
+                                </a></div>
+                                <div class="category-info"><span class="seperator">|</span> <a href="https://accounts.google.com/signin/v2/usernamerecovery?hl=ko&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fhl%3Dko&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Forgot?
+                                </a></div>
+                                <div class="author-info">|<span class="seperator"><a href="/oauth2/authorization/google"
+                                                                                     role="button">Google Login</a></span>
+                                </div>
+                            </div>
+                        {{/userNames}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .cover_1 -->
+</div> <!-- .main-wrap -->
+
+<div class="section">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h2 class="mb-3 mt-5">DaynDay 사이트는?</h2>
+                <p>오늘의 날씨와 다른 지역들의 날씨들을 알려드립니다.</p>
+                <p>오늘 날씨에 알맞은 옷 착장을 추천해 드리고 요즘 트렌드의 코디까지 보여드립니다.</p>
+                <p>하루하루 간편한 사진일기 또한, 작성이 가능하고 검색기능으로 그 날의 사진을 확인 할 수 있습니다.</p>
+
+
+            </div> <!-- .col-md-8 -->
+
+
+        </div>
+
+
+    </div>
+</div> <!-- .section -->
+<footer>
+    <div class="site-footer">
+        <div class="container">
+
+
+
+
+            <div class="col-md-6 col-lg-3 mb-5" data-aos="fade" data-aos-delay="400">
+                <div class="footer-widget footer-contact-widget">
+
+                    <h3>Contact Us</h3>
+                    <p class="contact-email">morba9850@naver.com</p>
+                    <p class="contact-phone">010-1234-5678</p>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+<div class="site-footer-copyright">
+    <div class="container">
+        <div class="row">
+
+            <p class="footer-text col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- loader -->
+<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+
+<script src="js/aos.js"></script>
+
+<script src="/js/app/index.js"></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,76 @@
+{{>layout/header2}}
+
+<div class="main-wrap">
+    <div class="cover_1 cover_sm">
+        <div class="img_bg" style="background-image: url(img/slider-1.jpg);" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-7" data-aos="fade-up">
+                        <h2 class="heading">오늘 뭐 입지?</h2>
+                        <p class="lead">What should I wear today?</div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .cover_1 -->
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7" data-aos="fade-up">
+                    <img src="img/clothes.jpg" alt="Image placeholder" class="img-fluid">
+                </div>
+                <div class="col-md-5 pl-md-5" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="mb-4">오늘 날씨의 옷차림</h2>
+                    <p>기온에따른 데이터.</p>
+                    <p>강수에따른 데이터.</p>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="row justify-content-center mb-5" data-aos="fade-up">
+                    <div class="col-md-8  text-center">
+                        <h2 class="mb-3">요즘 트렌드는 무슨 옷?</h2>
+                        <p class="lead">What kind of clothes do people wear these days?</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    {{#wearStats}}
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{photo}}" alt="Image placeholder" class="img-fluid mb-4 rounded">
+                        <h3 class="mb-3">거리 패션</h3>
+                        <h5>man</h5>
+                    </div>
+
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                        <img src="{{photo2}}" class="img-fluid mb-4 rounded">
+                        <h3 class="mb-3">거리 패션</h3>
+                        <h5>woman</h5>
+                    </div>
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <img src="{{mphoto}}" alt="Image placeholder" class="img-fluid mb-4 rounded">
+                    <h3 class="mb-3">샵 스탭</h3>
+                    <h5>man</h5>
+                    </div>
+
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                        <img src="{{gphoto}}" alt="Image placeholder" class="img-fluid mb-4 rounded">
+                        <h3 class="mb-3">샵 스탭</h3>
+                        <h5>woman</h5>
+                    </div>
+                    {{/wearStats}}
+                </div>
+            </div>
+        </div> <!-- .section -->
+
+    </div> <!-- .main-wrap -->
+
+
+
+{{>layout/footer2}}

@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.gardle
+.idea
+application-oauth.yml
+application-aws.yml
+
+src/main/resources/application.yml
+src/main/resources/application-aws.yml
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/main/

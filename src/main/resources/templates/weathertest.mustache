@@ -1,0 +1,173 @@
+{{>layout/header2}}
+
+<div class="main-wrap">
+    <div class="cover_1">
+        <div class="img_bg" style="background-image: url(img/slider-1.jpg);" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12" data-aos="fade-up">
+                        <h2 class="heading">Day n Day</h2>
+                        <h5 style="color: aliceblue;"> 데이엔데이는 오늘의 날씨를 알려주고, 고민 하는 당신에게 옷을 추천해줍니다. 행복한 하루 사진으로 추억을 남겨보세요.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .cover_1 -->
+
+    <div class="section services-section">
+        <div class="container">
+
+            {{#weatherStats}}
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-up">
+                        <img src="img/weathericon.jpg" alt="Image placeholder" class="img-fluid test1">
+                    </div>
+                    <div class="col-md-6 pl-md-5" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="mb-4">{{temperature}}</h2>
+                        <p>{{weather}}</p>
+                        <p>{{ondo}}</p>
+                        <p>{{rain}}</p>
+
+
+                    </div>
+                </div>
+            {{/weatherStats}}
+
+
+        </div>
+    </div> <!-- .section -->
+
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center"  data-aos="fade-up">
+                    <h2 class="mb-4">지역별 날씨를 알려드려요!</h2>
+                    <p class="lead">The weather today by region</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .section -->
+
+    <div class="section pt-0 pb-0">
+
+        <div class="menus d-flex bg-light">
+
+            <div class="d-flex item">
+                <div class="image" style="background-image: url(img/img_1.jpg);" data-aos="fade"></div>
+                <div class="text">
+                    <h3>서해 5도</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$5.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-2 order-md-1"  style="background-image: url(img/img_2.jpg);" data-aos="fade" data-aos-delay="100"></div>
+                <div class="text order-1 order-md-2">
+                    <h3>서울/경기</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$6.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-1 order-md-2 order-lg-2 order-xl-1" style="background-image: url(img/img_3.jpg);" data-aos="fade" data-aos-delay="200"></div>
+                <div class="text order-2 order-md-1 order-lg-1 order-xl-2">
+                    <h3>영서</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$9.00</p>
+
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-2" style="background-image: url(img/img_4.jpg);" data-aos="fade" data-aos-delay="300"></div>
+                <div class="text order-1 mb-3">
+                    <h3>영동</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$13.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-1 order-lg-1 order-xl-2" style="background-image: url(img/img_5.jpg);" data-aos="fade" data-aos-delay="400"></div>
+                <div class="text order-2 order-lg-2 order-xl-1">
+                    <h3>충남</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$9.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-2 order-md-1 order-lg-1 order-xl-2" style="background-image: url(img/img_6.jpg);" data-aos="fade" data-aos-delay="500"></div>
+                <div class="text order-1 order-md-2 order-lg-2 order-xl-1">
+                    <h3>충북</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$7.00</p>
+                </div>
+            </div> <!-- .item -->
+
+
+
+            <div class="d-flex item">
+                <div class="image" style="background-image: url(img/img_7.jpg);" data-aos="fade"></div>
+                <div class="text">
+                    <h3>경북</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$5.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-2 order-md-1"  style="background-image: url(img/img_8.jpg);" data-aos="fade" data-aos-delay="100"></div>
+                <div class="text order-1 order-md-2">
+                    <h3>전남</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$6.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-1 order-md-2 order-lg-2 order-xl-1" style="background-image: url(img/img_9.jpg);" data-aos="fade" data-aos-delay="200"></div>
+                <div class="text order-2 order-md-1 order-lg-1 order-xl-2">
+                    <h3>전북</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$9.00</p>
+
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-2" style="background-image: url(img/img_4.jpg);" data-aos="fade" data-aos-delay="300"></div>
+                <div class="text order-1 mb-3">
+                    <h3>경남</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$13.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-1 order-lg-1 order-xl-2" style="background-image: url(img/img_10.jpg);" data-aos="fade" data-aos-delay="400"></div>
+                <div class="text order-2 order-lg-2 order-xl-1">
+                    <h3>제주도</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$9.00</p>
+                </div>
+            </div> <!-- .item -->
+
+            <div class="d-flex item">
+                <div class="image order-2 order-md-1 order-lg-1 order-xl-2" style="background-image: url(img/img_11.jpg);" data-aos="fade" data-aos-delay="500"></div>
+                <div class="text order-1 order-md-2 order-lg-2 order-xl-1">
+                    <h3>울릉/독도</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
+                    <p class="price">$7.00</p>
+                </div>
+            </div> <!-- .item -->
+
+
+            <br><p>  ---</p>
+        </div>
+    </div>
+</div>
+
+{{>layout/footer2}}
